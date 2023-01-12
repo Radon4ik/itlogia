@@ -1,0 +1,72 @@
+.title {
+  padding: 30px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main img {
+  max-width: 600px;
+}
+
+.main-info {
+  max-width: 500px;
+}
+
+.main-info h2 {
+  font-size: 20px;
+}
+
+.main-info ul {
+  padding-left: 17px;
+}
+
+ul :last-child {
+  margin-bottom: 20px;
+}
+
+.main-info ul li {
+  font-size: 12px;
+}
+.main-info a {
+  font-size: 16px;
+  color: #006dd4;
+}
+
+.form {
+  max-width: 420px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.form h2 {
+  text-align: center;
+  font-size: 28px;
+}
+
+.form input {
+  padding: 10px;
+  font-size: 23px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+
+.form button {
+  background-color: green;
+  color: white;
+  padding: 16px;
+  border-radius: 5px;
+  border: 0;
+  font-size: 20px;
+}
+
+.title span {
+  color: green;
+}
